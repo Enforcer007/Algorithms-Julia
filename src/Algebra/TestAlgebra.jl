@@ -8,14 +8,3 @@ import .Maths
 function add_value(x)
     return Maths.abs_value(x)+5
 end
-
-
-|--Algorithms
-    |-- src
-       |--Algebra
-             |-- algebra.jl
-             |-- sum.jl
-       |-- maths
-             |-- maths.jl
-             |-- Absolute.jl
-    |-- Algorithms.jl
