@@ -7,6 +7,6 @@ Algorithms:
 #push!(LOAD_PATH)
 include("maths/maths.jl") # Maths Directory
 include("Algebra/algebra.jl")
-print(Maths.abs_value(-98))
+print(Algebra.add_value(-98))
 
 
