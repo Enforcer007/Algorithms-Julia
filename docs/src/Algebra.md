@@ -1,5 +1,6 @@
 # Algebra API
 
+
 ```@index
 Modules = [Algebra]
 Order = [:constant, :type, :function]
