@@ -4,9 +4,10 @@ Algorithms:
 - Author: akhil
 - Date: 2020-05-28
 =#
-#push!(LOAD_PATH)
-include("maths/maths.jl") # Maths Directory
-include("Algebra/algebra.jl")
-print(Algebra.add_value(-98))
+module Algorithms
+include("Maths/Maths.jl") # Maths Directory
+include("Algebra/Algebra.jl")
 
-
+export Maths
+export Algebra
+end

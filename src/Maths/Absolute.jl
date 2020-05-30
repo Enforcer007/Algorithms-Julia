@@ -5,9 +5,8 @@ Absolute:
 - Date: 2020-05-28
 =#
 """
-abs_value(x)
+Evaluate Absolute Value of a number
 
-Computes Absolute Value of X
 """
 function abs_value(x)
     return x>0 ? x : -x

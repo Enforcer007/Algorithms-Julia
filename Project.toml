@@ -1,0 +1,6 @@
+name = "Algorithms"
+uuid = "9255f571-e742-4f3f-a778-9117d53c13fe"
+version = "0.0.1"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"

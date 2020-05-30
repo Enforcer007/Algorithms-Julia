@@ -6,4 +6,5 @@ maths:
 =#
 module Maths
     include("Absolute.jl")
+    include("Negative.jl")
 end
