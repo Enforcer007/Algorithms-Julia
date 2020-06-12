@@ -6,8 +6,10 @@ Algorithms:
 =#
 module Algorithms
 include("Maths/Maths.jl") # Maths Directory
-include("Algebra/Algebra.jl")
+include("Algebra/Algebra.jl") # Algebra Directory
+include("ArithematicAnalysis/ArithematicAnalysis.jl") #ArithematicAnalysis
 
 export Maths
 export Algebra
+export ArithematicAnalysis
 end
