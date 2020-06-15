@@ -6,4 +6,5 @@ ArithematicAnalysis:
 =#
 module ArithematicAnalysis
     include("Bisection.jl")
+    include("GaussianElimination.jl")
 end
