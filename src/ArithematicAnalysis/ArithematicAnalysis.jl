@@ -7,4 +7,5 @@ ArithematicAnalysis:
 module ArithematicAnalysis
     include("Bisection.jl")
     include("GaussianElimination.jl")
+    include("StaticEquilibrium.jl")
 end
